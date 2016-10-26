@@ -63,7 +63,7 @@
 		clearTimeout( windowScroller.timerID );
 		windowScroller.timerID = setTimeout(function() {
 			windowScroller.queue.run();
-		}, 500);
+		}, 200);
 	}, false);
 
 })();
