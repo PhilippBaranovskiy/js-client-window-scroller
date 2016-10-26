@@ -1,0 +1,26 @@
+{
+  "name": "js-client-window-scroller",
+  "homepage": "https://github.com/rockfield/js-client-window-scroller",
+  "authors": [
+    "philipp <philipp.b@ya.ru>"
+  ],
+  "description": "It uses delayed window.resize listener (with setTimeout). Bind your listeners to the only one delayed-\"resize\" event instead of copying that code.",
+  "main": "windowScroller.js",
+  "keywords": [
+    "js",
+    "javascript",
+    "scroller",
+    "resize",
+    "window",
+    "client",
+    "browser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
