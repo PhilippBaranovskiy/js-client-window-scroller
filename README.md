@@ -5,10 +5,10 @@ Bind your listeners to the only one delayed-"resize" event instead of copying th
 
 __Add your listener (and get an ID key):__
 ```
-/*
- *    force: true/false, to run your callback right now after adding to the queue.
- */
 var callbackID = windowScroller.queue.add( yourFunc, force );
+
+yourFunc: function, callback runs after last event
+force: true/false, to run your callback right now after adding to the queue.
 ```
 
 
